@@ -1,0 +1,19 @@
+ <textarea rows="8" cols="90" readonly>
+      <?php
+        	 echo("&lt;form action=\"client_login.php\" method=\"post\"/&gt;\n");
+          echo("   &lt;input type=\"hidden\" name=\"client\" value=\"'.$user_id.'\"/&gt;\n");
+          echo("   &lt;input type=\"text\" name=\"pat_item_search\"/&gt;\n");
+          echo("   &lt;input type=\"submit\" value=\"Submit\" id=\"submit\"/&gt;\n");
+        	echo("&lt;/form&gt;");
+      ?>
+</textarea>
+<br><br>
+
+<form action="customersearched.php" method="post">
+            <pform>
+              <div style="width:155px; float:left;">Please enter the PAT I.D. number</div>
+              <input type="text" name="PAT_ID_search" />
+				  <input type="hidden" name="client_id" value="1"/>
+              <br><br><input type="submit" value="Submit" id="submit"/>
+            </pform>
+          </form>

@@ -1,0 +1,204 @@
+body {background-color:#ffee7e;text-align: center;}
+body {color:#8e8e8e;}
+
+player1{font-family:'Press Start 2P',cursive;text-align:center;color:#000000;font-size:1vw;}
+p{font-family:'Titillium Web',cursive;color:#111111;}
+.left{text-align:left;}
+.right{text-align:right;}
+.center{text-align:center;}
+.reserve{font-family:'Arial'}
+h1{font-family:'Titillium Web',cursive;color:#111111;font-size:1.5em;}
+h2{font-family:'Titillium Web',cursive;color:#111111;}
+h3{font-family:'Titillium Web',cursive;color:#111111;}
+h4{font-family:'Titillium Web',cursive;color:#111111;}
+strong{font-family:'Titillium Web',cursive;color:#111111;}
+
+ul.left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+li.left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+.p_left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+.p_right{font-family:'Titillium Web',   cursive;   text-align:right; color:#111111;}
+.left{text-align:left;}
+.right{text-align:right;}
+.reserve{font-family:'Arial'}
+p.p_code{font.font-family: 'Courier New', mono space;text-align:left;}
+.p_left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+.p_right{font-family:'Titillium Web',   cursive;   text-align:right; color:#111111;}
+p.left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+p2{font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.7em;}
+b{color:#111111;}
+ptab{font-family:'Titillium Web',   cursive;    color:#000000;font-weight: normal ;font-size:1.0em;}
+pform{font-family:'Titillium Web',   cursive;   text-align:top; color:#000000; font-weight: normal;}
+.Titillium{font-family:'Titillium Web',   cursive;   text-align:center; vertical-align:super;}
+h1.Titillium{font-family:'Titillium Web', cursive; font-size:1.5em;text-align:center;color:#000000;}
+h2.Titillium{font-family:'Titillium Web', cursive; font-size:1.3em;text-align:center;color:#000000; line-height:0%; vertical-align:sub;}
+a{font-family:'Titillium Web',   cursive;   text-align:center; vertical-align:super; color:#000000;}
+.normal{font-family:'Titillium Web',   cursive;   text-align:center; vertical-align:baseline; color:#000000;}
+th{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+tr{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+
+
+/*Makes a button look like a hyperlink*/
+#button {
+     background:none!important;
+     color:inherit;
+     border:none;
+     padding:0!important;
+     font-family:'Titillium Web',cursive;color:#111111;
+     /*border is optional*/
+     border-bottom:1px solid #444;
+     cursor: pointer;
+}
+a.normal{font-family:'Titillium Web', cursive; text-align:center; color:#000000; }
+
+#BodyContainer{ width:960px; margin:0 auto; background-color:#333333; padding:0px;}
+
+#MainPortion{width:842px; height:100%; margin:0 auto; background-color:#6eff97; padding:0px;float:left;}
+
+
+#TitleContainer{width:100%;  padding:0px; background-color:#ffee7e; float:left;}
+
+#MenuContainer{width:100%; height:32px; padding:0px; background-color:#ffee7e; float:left;}
+
+#toptab {padding:0px;border-top-right-radius: 0px;border-top-left-radius: 0px;background-color:#e1c232;text-align: center;
+	height:28px;width:100%;float:left;  font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#textpad {width:290px; height:200px; padding:5px;float:left;}
+/*Wrapper was height:490px;*/
+#wrapper { height:100%; width:100%; background-image:url('/images/PatlogoLight.png'); background-repeat:no-repeat;
+	background-position:center top; overflow:auto;}
+
+
+.MenuButton{ float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+	    border-bottom-left-radius:0px;background-color:#eedd6d; width:19.95%; height:30px; border-style:solid; border-width: 0px;
+		border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;margin:0 auto;}
+
+.MenuButton:hover{float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; width:19.7%; height:30px;border-style:solid;
+    border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+.Menu4Buttons{ float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+			    border-bottom-left-radius:0px;background-color:#eedd6d; width:24.7%; height:30px; border-style:solid; border-width: 0px;
+				border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;margin:0 auto;}
+
+.Menu4Buttons:hover{float:left; padding:0px; border-top-right-radius:5px; border-top-left-radius:5px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; width:24.7%; height:30px;border-style:solid;
+    border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+.MenuLong { border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+	background-color:#eedd6d;width:45%;height:30px;border-style:solid; border-width:0px;border-color:#222222;
+	font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em; margin:0 auto;}
+
+.MenuLong:hover { border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+									background-color:#ffff8f; height:30px;border-style:solid; border-width:0px;border-color:#222222;
+									font-family:'Titillium Web',   cursive;   text-align:center; color:#111111; margin:0 auto;}
+
+#MenuLong { border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+						background-color:#eedd6d;width:45%;height:30px;border-style:solid; border-width:0px;border-color:#222222;
+						font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em; margin:0 auto;}
+
+#MenuLong:hover { border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+									border-bottom-left-radius:10px;background-color:#ffff8f; height:30px;border-style:solid; border-width:0px;
+									border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111; margin:0 auto;}
+
+#submit {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+					background-color:#eedd6d; width:180px; height:30px;border-style:solid;border-width:0px; border-color:#222222;
+					font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#submit:hover {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+								border-bottom-left-radius:0px;background-color:#ffff8f; width:180px; height:30px;border-style:solid;border-width:0px;
+								border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+
+
+#submitlong {padding:4px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+							background-color:#eedd6d;width:300px;height:40px;border-style:solid; border-width:0px;border-color:#222222;
+							font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#submitlong:hover {padding:4px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; height:40px;border-style:solid;
+    border-width:0px;border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+#pannels_holder{width:100%; height:100%; float:left;}
+
+#left_pannel{margin:none; width:49%; height:500px; background-color: rgba(25,25,25,.5); float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+							border-bottom-right-radius:0px; border-bottom-left-radius:0px; padding:0px;}
+
+#left_pannel_XL{width:49%; height:600px; background-color: rgba(25,25,25,.5); float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+														border-bottom-right-radius:0px; border-bottom-left-radius:0px; padding:0px;}
+
+#pannel_spacer{width:1.9%; height:500px; float:left;}
+
+#right_pannel{width:49%; height:500px; background-color: rgba(25, 25, 25, .5); float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+							border-bottom-right-radius:0px; border-bottom-left-radius:0px;padding:0px;     font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#right_pannel_XL{width:49%; height:600px; background-color: rgba(25, 25, 25, .5); float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+														border-bottom-right-radius:0px; border-bottom-left-radius:0px;padding:0px;     font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#footer_panel{width:100%; height:100px; float:left;}
+
+#right_iframe{width:100%; height:100%; border:none; float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+							border-bottom-right-radius:0px; border-bottom-left-radius:0px;padding:0px;
+							font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+#left_iframe{width:100%; height:100%; border:none; float:left; border-top-right-radius:0px; border-top-left-radius:0px;
+							border-bottom-right-radius:0px; border-bottom-left-radius:0px;padding:0px;
+							font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#submit_cell {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+							background-color:#eedd6d; width:75%; height:100%;border-style:solid;border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;
+	 					  text-align:center; color:#111111;font-size:1.0em;}
+#submit_cell:hover {padding:0px; border-top-right-radius:2px; border-top-left-radius:2px; border-bottom-right-radius:0px;
+							border-bottom-left-radius:0px;background-color:#ffff8f; width:75%; height:100%;border-style:solid;border-width:0px;
+							border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#edit_button {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+							background-color:#eeffff; width:75%; height:100%;border-style:solid;border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;
+								 					  text-align:center; color:#111111;font-size:1.0em;}
+/*.onoffswitchbkup {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch {
+     width: 90px; float:left;
+
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #53C234; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 25px; margin: 2.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}*/

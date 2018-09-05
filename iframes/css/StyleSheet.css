@@ -1,0 +1,131 @@
+
+body {color:#8e8e8e;font-family:'Titillium Web',cursive;color:#111111;}
+
+
+p{font-family:'Titillium Web',cursive;color:#111111;}
+.left{text-align:left;}
+.right{text-align:right;}
+.center{text-align:center;padding:0px;margin:none;}
+.reserve{font-family:'Arial'}
+.little{font-size:.7em;}
+h1{font-family:'Titillium Web',cursive;color:#111111;font-size:1.5em;}
+h2{font-family:'Titillium Web',cursive;color:#111111;}
+h3{font-family:'Titillium Web',cursive;color:#111111;}
+h4{font-family:'Titillium Web',cursive;color:#111111;}
+strong{font-family:'Titillium Web',cursive;color:#111111;}
+
+.p_left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+.p_right{font-family:'Titillium Web',   cursive;   text-align:right; color:#111111;}
+p.left{font-family:'Titillium Web',   cursive;   text-align:left; color:#111111;}
+p2{font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.7em;}
+b{color:#111111;}
+ptab{font-family:'Titillium Web',   cursive;    color:#000000;font-weight: normal ;font-size:1.0em;}
+pform{font-family:'Titillium Web',   cursive;   text-align:top; color:#000000;font-weight: normal;}
+.Titillium{font-family:'Titillium Web',   cursive;   text-align:center; vertical-align:super;}
+a{font-family:'Titillium Web',   cursive;   text-align:center; vertical-align:super; color:#000000;}
+table{border-style: hidden;}
+th{font-family:'Titillium Web', cursive;   border-style: hidden; text-align:left; color:#111111;}
+tr{font-family:'Titillium Web', cursive;  border-style: hidden; text-align:left; color:#111111;}
+
+a.normal{font-family:'Titillium Web', cursive; text-align:center; color:#000000; }
+/*Makes a button look like a hyperlink*/
+#button {
+     background:none!important;
+     color:inherit;
+     border:none;
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444;
+     cursor: pointer;
+}
+
+
+#MainPortion{width:842px; height:580px; margin:0 auto; background-color:#6eff97; padding:0px;float:left;}
+
+
+#TitleContainer{width:100%;  padding:0px; background-color:#ffee7e; float:left;}
+
+#MenuContainer{width:100%; height:32px; padding:0px; background-color:#ffee7e; float:left;}
+
+#toptab {padding:0px; margin:0; border-top-right-radius: 0px;border-top-left-radius: 0px;background-color:#e1c232;text-align: center;
+	height:28px;width:100%;float:left;  font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#textpad {width:290px; height:200px; padding:5px;float:left;}
+/*Wrapper was height:490px;*/
+#wrapper { height:541px; width:950px; background-image:url('/images/PatlogoLight.png'); background-repeat:no-repeat;
+	background-position:center top; overflow:auto;}
+
+
+.MenuButton{float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#eedd6d; width:49.5%; height:30px; border-style:solid; border-width: 0px;
+	border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+.MenuButton:hover{float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; width:49%; height:30px;border-style:solid;
+    border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+.MenuButtonActive{float:left; padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; width:49%; height:30px; border-style:solid; border-width: 0px;
+	border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+.MenuLong { border-top-right-radius:20px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+	background-color:#eedd6d;width:45%;height:30px;border-style:solid; border-width:0px;border-color:#222222;
+	font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em; margin:0 auto;}
+
+.MenuLong:hover { border-top-right-radius:10px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;background-color:#ffff8f; height:30px;border-style:solid; border-width:0px;border-color:#222222;
+	font-family:'Titillium Web',   cursive;   text-align:center; color:#111111; margin:0 auto;}
+
+#submit {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;background-color:#eedd6d; width:180px; height:30px;border-style:solid;border-width:0px;
+	border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#submit:hover {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;background-color:#ffff8f; width:180px; height:30px;border-style:solid;border-width:0px;
+	border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+#submit_cell {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px; border-bottom-left-radius:0px;
+							background-color:#eedd6d; width:75%; height:100%;border-style:solid;border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;
+	 					  text-align:center; color:#111111;font-size:1.0em;}
+#submit_cell:hover {padding:0px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+							border-bottom-left-radius:0px;background-color:#ffff8f; width:75%; height:100%;border-style:solid;border-width:0px;
+							border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#submitlong {padding:4px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;background-color:#eedd6d;width:300px;height:40px;border-style:solid; border-width:0px;
+	border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;font-size:1.0em;}
+
+#submitlong:hover {padding:4px; border-top-right-radius:0px; border-top-left-radius:0px; border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;background-color:#ffff8f; height:40px;border-style:solid;
+    border-width:2px;border-color:#222222; font-family:'Titillium Web',   cursive;   text-align:center; color:#111111;}
+
+#left_panne{width:48%; height:360px; background-color: rgba(25,25,25,.5); float:left; border-top-right-radius:10px; border-top-left-radius:10px;
+		border-bottom-right-radius:10px; border-bottom-left-radius:10px; padding:0px;}
+
+#pannels_holder{width:100%; height:362px; float:left;}
+
+#left_pannel{width:48%; height:360px; background-color: rgba(25,25,25,.5); float:left; border-top-right-radius:10px; border-top-left-radius:10px;
+	border-bottom-right-radius:10px; border-bottom-left-radius:10px; padding:0px;}
+
+#pannel_spacer{width:1%; height:360px; float:left;}
+
+#right_pannel{width:48%; height:360px; background-color: rgba(25, 25, 25, .5); float:left; border-top-right-radius:10px; border-top-left-radius:10px;
+	border-bottom-right-radius:10px; border-bottom-left-radius:10px;padding:0px;     font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#footer_panel{width:100%; height:100%; float:left;}
+
+#right_iframe{width:100%; height:100%;  background-color: rgba(25, 25, 25, .5);float:left; border-top-right-radius:10px; border-top-left-radius:10px;
+	border-bottom-right-radius:10px; border-bottom-left-radius:10px;padding:0px; font-family:'Titillium Web', cursive; text-align:center; color:#000000 }
+
+#in_date{width:100%; height:30px; background-color: rgba(25, 99, 25, .5);font-family:'Titillium Web', cursive; text-align:center; color:#000000; }
+
+
+#expired{width:100%; height:30px; background-color: rgba(99, 25, 25, .5);font-family:'Titillium Web', cursive; text-align:center; color:#000000; }
+
+#edit_button {background-color: rgba(25,25,25,.0);
+							 width:100%; height:100%;border-style:solid;border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;
+	 					  text-align:center; color:#111111;font-size:1.0em;}
+#edit_button:hover {background-color: rgba(25,25,25,.5);
+								 width:100%; height:100%;border-style:solid;border-width:0px; border-color:#222222; font-family:'Titillium Web',   cursive;
+		 					  text-align:center; color:#111111;font-size:1.0em;}
